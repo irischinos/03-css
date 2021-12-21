@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(195, 228, 241);
+}
+#encabezado {
+    text-align: right;
+}
+.lt-roja {
+    color: red;
+}
+.lt-naranja {
+    color: orangered;
+    font-weight: bold;
+}
+.lt-naranja-clarito {
+    color: rgb(231, 168, 74);
+}
+.fondo-blanco {
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
+h2 {
+    text-transform: capitalize;
+}
+.letra-capital {
+    font-size: 40px;
+}
+.sangria {
+    text-indent: 30px;
+}
+.centrado {
+    text-align: center;
+}
+.italica {
+    font-style: italic;
+}

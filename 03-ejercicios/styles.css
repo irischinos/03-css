@@ -1,0 +1,27 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    color: black;
+}
+
+.lt-blanca {
+    color: white;
+    font-style: italic;
+}
+
+.lt-amarilla {
+    color: yellow;
+    font-family:  Tahoma;
+}
+
+.lt-naranja {
+    color: rgb(226, 82, 30);
+    font-family: monospace;
+}
+
+.lt-roja {
+    color: red;
+    font-family: comic-sans;
+}

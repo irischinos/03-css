@@ -1,0 +1,60 @@
+/* Comentarios en CSS */
+
+
+/* Selector (h1) : selector de etiqueta */
+
+h1 {
+
+    font-size: 72px; /*tamaño de fuente*/
+    color: rgb(241, 227, 227); /*color de fuente*/
+    background-color: rgb(51, 59, 173); /*color de fondo*/
+    /* Colores: hexadecimal, hsl, rbg*/
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* h1--> .parrafo : selector de clase */
+.encabezado {
+    font-size: 72px; /*tamaño de fuente*/
+    color: rgb(241, 227, 227); /*color de fuente*/
+    background-color:  rgb(36, 6, 36); /*color de fondo*/
+    /* Colores: hexadecimal, hsl, rbg*/
+    text-transform: lowercase;
+}
+
+body {
+    background-color: #e1e1e1;
+}
+
+#texto {
+    color: blue;
+    background-color: yellowgreen;
+}
+
+
+/* Predomina el estilo de la clase por la "especificidad", ya que las clases tienen mayor jerarquía que los selectrores de etiqueta */
+
+/* CLASE: espcificidad 10*/
+.texto {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: white;
+    background-color: dimgrey;
+    font-style: italic;
+}
+
+p { /* Es un color en cascada */
+    color: yellow;
+    background-color: teal;
+}
+
+
+/* ESPECIFICIDAD */
+
+/* Selector de etiqueta ==> espeficididad: 1 */
+/* Clase ==> espcificidad:  10 */
+/* Id ==> especificidad: 100 */
+/* Estilo en línea ==> especificidad: 1000 */
