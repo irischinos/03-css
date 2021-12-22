@@ -1,0 +1,37 @@
+body {
+    /* background-image: url(https://media.istockphoto.com/vectors/abstract-simple-geometric-vector-seamless-pattern-with-gold-line-on-vector-id1160720443?k=20&m=1160720443&s=612x612&w=0&h=tkTnYVL5jBOVK_wFgrixKsYzWVN7-x4AoEbg9ky7hoE=); */
+
+    /* background-repeat: no-repeat; /* ==> es para que la imagen de fondo no se repita // en este caso yo sí quiero que se repita porque es un "pattern background" y si se repite, hay coherencia en esa repetición */
+
+    /*background-size: cover; */ /* ==> sirve para estirar la imagen para que abarque todo el body*/
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja {
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    margin: 20px; /* aplica el margen en los 4 lados de la caja */
+    margin-bottom: 20px; /* aplica el margen hacia abajo de la caja */
+    padding: 20px;
+    /*padding-top / padding-right / padding-bottom / padding-left */
+    border-radius: 30px;
+}
+.rojo {
+    /* background-color: red; */
+    border: 5px solid red;
+    font-size: 100px;
+}
+.verde {
+    /* background-color: green; */
+    border: 5px solid green;
+}
+.azul {
+    /* background-color: blue; */
+    border: 5px solid blue;
+}
